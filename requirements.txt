@@ -1,0 +1,7 @@
+PyQt5>=5.15
+
+# Optional, Windows-only — enables real active-window / control-under-cursor
+# capture as described in the design doc (Button/Menu/Textbox/etc.).
+# App runs fine without them; ui_context.py falls back to "N/A".
+pywin32; platform_system == "Windows"
+uiautomation; platform_system == "Windows"
